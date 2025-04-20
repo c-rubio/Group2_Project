@@ -8,7 +8,7 @@ public class GhostNavMesh : MonoBehaviour
     [SerializeField] private Transform movePositionTransform;
 
     private NavMeshAgent navMeshAgent;
-    private float followDelay = 5f; // Delay in seconds
+    private float followDelay = 30f; // Delay in seconds
     private float timer = 0f;
     private bool canFollow = false;
 
