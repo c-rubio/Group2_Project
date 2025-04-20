@@ -16,9 +16,9 @@ public class DoorTrigger : MonoBehaviour
     }
 
 
-    void OnTriggerEnter(Collider other)
+    void OnCollisionEnter(Collision other)
     {
-        if (other.CompareTag("Key"))
+        if (other.gameObject.CompareTag("Key"))
         {
             animController.SetBool("isTouching", true);
         }
