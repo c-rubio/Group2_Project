@@ -12,14 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 2216d408fd827ca4ba2c0048f6873efc
   - enabled: 1
-    path: Assets/Scenes/Moises_Scene.unity
-    guid: 8976f0a24b3e5a447a733e42dcf5b6f4
+    path: Assets/Scenes/David_Scene1.unity
+    guid: 3f7508b2143473a42ac582992a1d25aa
   - enabled: 1
     path: Assets/Scenes/Lose Screen.unity
     guid: b6207439a14f0d641807086f8cac2925
   - enabled: 1
-    path: Assets/Scenes/Win Screen.unity
-    guid: 64aa255438582d34ba328928f667493b
+    path: Assets/Scenes/Win 3D Scene.unity
+    guid: e88eeaea77eb04747b0eeb85148242ef
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 307d6a6a83fc5624f9b072d3573c05a1, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

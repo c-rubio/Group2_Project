@@ -10,7 +10,7 @@ public class LoseTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadSceneAsync(2); //load win screen when player touches the flag
+            SceneManager.LoadSceneAsync(3); //load win screen when player touches the flag
         }
     }
 }

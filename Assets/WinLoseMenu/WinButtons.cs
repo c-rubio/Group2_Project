@@ -27,4 +27,7 @@ public class WinButtons : MonoBehaviour
     {
         Application.Quit();
     }
+    public void ReturnMaze() {
+        SceneManager.LoadSceneAsync(1);
+    }
 }
